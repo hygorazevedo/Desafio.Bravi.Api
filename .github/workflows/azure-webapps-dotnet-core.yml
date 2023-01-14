@@ -9,7 +9,7 @@ permissions:
 
 env:
   AZURE_WEBAPP_NAME: desafiobraviapi
-  AZURE_WEBAPP_PACKAGE_PATH: "./publish"
+  AZURE_WEBAPP_PACKAGE_PATH: "."
 
 jobs:
   publish:
