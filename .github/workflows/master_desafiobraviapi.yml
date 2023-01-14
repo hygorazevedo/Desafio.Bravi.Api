@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'DesafioBraviApi'
-          slot-name: 'Development'
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B3013F9E50049B2B35C40F0E980428B }}
           package: .
