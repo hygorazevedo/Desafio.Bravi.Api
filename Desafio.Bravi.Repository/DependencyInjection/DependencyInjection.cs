@@ -13,7 +13,7 @@ namespace Desafio.Bravi.Repository.DependencyInjection
             services.AddScoped<IEditarClienteRepository, ClienteRepository>();
             services.AddScoped<IRemoverClienteRepository, ClienteRepository>();
 
-            services.AddScoped<IMongoClient>(db => new MongoClient("mongodb+srv://hygorazevedo:desafiobravi@cluster0.jkowyx1.mongodb.net/?retryWrites=true&w=majority"));
+            services.AddScoped<IMongoClient>(db => new MongoClient(""));
 
             return services;
         }
