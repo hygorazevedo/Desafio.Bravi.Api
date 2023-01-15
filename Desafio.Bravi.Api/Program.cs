@@ -30,6 +30,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseCors(cors => cors.AllowAnyOrigin());
+
 app.MapControllers();
 
 app.UseHealthChecks("/health");
